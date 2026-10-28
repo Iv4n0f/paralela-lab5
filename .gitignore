@@ -1,0 +1,21 @@
+# Binarios compilados en C
+parte1_pi/pi_secuencial
+parte1_pi/pi_pthreads
+parte2_matriz_vector/matvec_secuencial
+parte2_matriz_vector/matvec_pthreads
+parte3_lista_enlazada/lista_sin_sync
+parte3_lista_enlazada/lista_mutex
+parte3_lista_enlazada/lista_rwlock
+parte4_barreras/barrera_busywait
+parte4_barreras/barrera_semaforos
+parte4_barreras/barrera_condvar
+*.o
+
+# Python
+__pycache__/
+*.pyc
+
+# Archivos de respaldo y temporales
+*.swp
+*~
+.DS_Store
